@@ -1,17 +1,3 @@
-## Configuration file for a typical Tor user
-## Last updated 2 September 2014 for Tor 0.2.6.1-alpha.
-## (may or may not work for much older or much newer versions of Tor.)
-##
-## Lines that begin with "## " try to explain what's going on. Lines
-## that begin with just "#" are disabled commands: you can enable them
-## by removing the "#" symbol.
-##
-## See 'man tor', or https://www.torproject.org/docs/tor-manual.html,
-## for more options you can use in this file.
-##
-## Tor will look for this file in various places based on your platform:
-## https://www.torproject.org/docs/faq#torrc
-
 User tord
 DataDirectory /home/tord/.tor
 ORPort 9001
